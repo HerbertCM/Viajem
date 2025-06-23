@@ -102,7 +102,7 @@ menu a:hover{
 /*Corpo*/
 
 main{
-    background: white url(/imagens/principal/carro-2000.jpg) center top no-repeat scroll;
+    background: white url(../imagens/principal/carro-2000.jpg) center top no-repeat scroll;
     background-size: cover;
     box-shadow: inset 0px 0px 20px black;
     height: 100vh;
