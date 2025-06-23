@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'corpo';
+    src: url(../fonts/ZT/ZTBrosOskon90s-Regular.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'titulo';
+    src: url(../fonts/november/Hey\ November.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --cor0: #0117E0;
+    --cor1: #E04000;
+    --cor2: #52E000;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Mobile first, até 768px*/
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'corpo' 'Times New Roman', Times, serif;
+    color: black;
+    box-sizing: border-box;
+}
+
+/*Cabeçalho*/
+
+header{
+    background-image: linear-gradient(to top, var(--cor0), var(--cor2));
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+header h1{
+    text-align: center;
+    margin: auto;
+    color: #E04000;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+    font-family: 'titulo';
+    font-size: 1.7em;
+    width: 250px;
+    letter-spacing: 4px;
+}
+
+header img{
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+header div#titulo{
+    padding-top: 5px;
+}
+
+/*Menu*/
+
+span{
+    padding: 5px;
+}
+
+span:hover{
+    cursor: pointer;
+    border: none;
+}
+
+div#itens{
+    display: none;
+}
+
+menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #00000080;
+}
+
+menu > a{
+    flex: auto;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #00000073;
+    padding: 5px;
+}
+
+menu a:hover{
+    background-color: rgba(0, 0, 0, 0.581);
+    text-shadow: 0px 0px 5px white;
+    transition: background 0.5s;
+}
+
+/*Corpo*/
+
+main{
+    background: white url(/imagens/principal/carro-2000.jpg) center top no-repeat scroll;
+    background-size: cover;
+    box-shadow: inset 0px 0px 20px black;
+    height: 100vh;
+    width: 100vw;
+}
+
+main div{
+    position: absolute;
+    top: 100%;
+    left: 15%;
+}
+
+/*Rodapé*/
+
+footer{
+    background-color: var(--cor0);
+}
+
+footer p{
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}

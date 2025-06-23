@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+</head>
+<body oresise="itens">
+    <header>
+        <span class="material-icons" onclick="clicou()" id="men">menu</span>
+        <div id="itens">
+            <menu>
+                <a href="#">Pais A</a>
+                <a href="#">Pais B</a>
+                <a href="#">Pais C</a>
+                <a href="#">Pais D</a>
+            </menu>
+        </div>
+        
+        <div id="titulo">
+            <img src="imagens/principal/marca-sem-fundo-250.png" alt="">
+            <h1>"Seu guia para destinos incríveis"</h1>
+        </div>
+    </header>
+    
+    <main>
+        <div>
+            <h1>Titulo</h1>
+            <h1>Titulo</h1>
+            <h1>Titulo</h1>
+            <h1>Titulo</h1>
+        </div>
+    </main>
+
+    <footer>
+        <p><i>Site criado por HerbertCM</i></p>
+    </footer>
+
+    <script>
+        function clicou(){
+            if (itens.style.display=='block'){
+                itens.style.display='none'
+                men.style.background='transparent'
+                men.style.border='none'
+
+            } else {
+                itens.style.display='block'
+                men.style.background='#0000006a'
+                men.style.border='1px solid #00000094'
+            }
+        }
+    </script>
+</body>
+</html>
