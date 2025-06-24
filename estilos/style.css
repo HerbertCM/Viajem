@@ -43,26 +43,26 @@ header{
     box-shadow: 0px 0px 10px black;
 }
 
+header div#titulo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 header h1{
     text-align: center;
-    margin: auto;
     color: #E04000;
-    padding-bottom: 10px;
     text-shadow: 1px 1px 0px rgb(0, 0, 0);
     font-family: 'titulo';
-    font-size: 1.7em;
-    width: 250px;
+    font-size: 1.1em;
     letter-spacing: 4px;
+    flex-basis: 200px;
+    flex-grow: 0;
 }
 
 header img{
     display: block;
-    margin: auto;
-    margin-bottom: 30px;
-}
-
-header div#titulo{
-    padding-top: 5px;
+    flex-grow: 0;
 }
 
 /*Menu*/
@@ -105,7 +105,7 @@ menu a:hover{
 
 main{
     position: relative;
-    background: url(../imagens/principal/praia-3000.jpg) right center no-repeat scroll;
+    background: url(../imagens/principal/praia-3000.jpg) center center no-repeat scroll;
     background-size: cover;
     box-shadow: inset 0px 0px 20px black;
     height: 100vh;
