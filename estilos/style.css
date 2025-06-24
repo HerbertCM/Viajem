@@ -38,7 +38,7 @@ body, html{
 /*Cabeçalho*/
 
 header{
-    background-image: linear-gradient(to top, var(--cor0), var(--cor2));
+    background-image: linear-gradient(to top, var(--cor0), var(--cor0), var(--cor2));
     padding-bottom: 20px;
     box-shadow: 0px 0px 10px black;
 }
@@ -105,7 +105,7 @@ menu a:hover{
 
 main{
     position: relative;
-    background: url(../imagens/principal/carro-2000.jpg) right top no-repeat scroll;
+    background: url(../imagens/principal/praia-3000.jpg) right center no-repeat scroll;
     background-size: cover;
     box-shadow: inset 0px 0px 20px black;
     height: 100vh;
