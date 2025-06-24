@@ -24,7 +24,6 @@
     /*Menu*/
 
     menu#grande{
-        width: 60vw;
         margin-left: auto;
         display: flex;
         justify-content: flex-end;

@@ -38,8 +38,7 @@ body, html{
 /*Cabeçalho*/
 
 header{
-    background-image: linear-gradient(to top, var(--cor0), var(--cor0), var(--cor2));
-    padding-bottom: 20px;
+    background-image: linear-gradient(to top, var(--cor0), var(--cor0), #01e0d1);
     box-shadow: 0px 0px 10px black;
 }
 
@@ -51,7 +50,7 @@ header div#titulo{
 
 header h1{
     text-align: center;
-    color: #E04000;
+    color: var(--cor1);
     text-shadow: 1px 1px 0px rgb(0, 0, 0);
     font-family: 'titulo';
     font-size: 1.1em;
