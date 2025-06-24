@@ -60,8 +60,7 @@ header h1{
     flex-grow: 0;
 }
 
-header img{
-    display: block;
+header source{
     flex-grow: 0;
 }
 
@@ -80,14 +79,14 @@ div#itens{
     display: none;
 }
 
-menu{
+menu#menor{
     display: flex;
     flex-direction: column;
     text-align: center;
     background-color: #00000080;
 }
 
-menu > a{
+menu#menor > a{
     flex: auto;
     text-decoration: none;
     color: white;
@@ -95,10 +94,14 @@ menu > a{
     padding: 5px;
 }
 
-menu a:hover{
+menu#menor a:hover{
     background-color: rgba(0, 0, 0, 0.581);
     text-shadow: 0px 0px 5px white;
     transition: background 0.5s;
+}
+
+menu#grande{
+    display: none;
 }
 
 /*Corpo*/

@@ -6,33 +6,51 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
+
 <body oresise="itens">
     <header>
-        <span class="material-icons" onclick="clicou()" id="men">menu</span>
+
+        <div id="span"><span class="material-icons" onclick="clicou()" id="men">menu</span></div>
         <div id="itens">
-            <menu>
+            <menu id="menor">
                 <a href="#">Pais A</a>
                 <a href="#">Pais B</a>
                 <a href="#">Pais C</a>
                 <a href="#">Pais D</a>
             </menu>
         </div>
-        
+
         <div id="titulo">
-            <img src="imagens/principal/marca-sem-fundo-250.png" alt="">
+            <picture>
+                <source media="(max-width: 1200px)" srcset="imagens/principal/marca-sem-fundo-200.png" type="image/png">
+                <img src="imagens/principal/marca-sem-fundo-300.png" alt="">
+            </picture>
             <h1>"Seu guia para destinos incríveis"</h1>
         </div>
+
+        <menu id="grande">
+            <a href="#">Pais A</a>
+            <a href="#">Pais B</a>
+            <a href="#">Pais C</a>
+            <a href="#">Pais D</a>
+        </menu>
+
     </header>
     
     <main>
+
         <div>
             <h1>"Aproveite cada momento!"</h1>
         </div>
+
     </main>
 
     <footer>
+
         <p><i>Site criado por HerbertCM</i></p>
+
     </footer>
 
     <script>
