@@ -112,8 +112,14 @@ section.media-text div.conteudo{
 }
 
 div.conteudo img{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
+    border-top: 10px solid #0196e0;
+    border-bottom: 10px solid #0196e0;
+    border-left: 10px solid #0117e0;
+    border-right: 10px solid #0117e0;
+    box-shadow: 0px 0px 8px black;
+    border-radius: 5px;
 }
 
 div.conteudo article.conteudo{
@@ -145,8 +151,14 @@ section.text-center{
 
 section.text-center img{
     margin-bottom: 50px;
-    width: 600px;
+    width: 300px;
     height: 200px;
+    border-top: 10px solid #0196e0;
+    border-bottom: 10px solid #0196e0;
+    border-left: 10px solid #0117e0;
+    border-right: 10px solid #0117e0;
+    box-shadow: 0px 0px 8px black;
+    border-radius: 5px;
 }
 
 section.text-center div.end{
@@ -159,7 +171,7 @@ section.text-center div.end{
 div.end article.end{
     flex: 1 1 300px;
     text-align: center;
-    border: 1px solid yellow;
+    border: 2px solid #020e74;
 }
 
 div.end p{
