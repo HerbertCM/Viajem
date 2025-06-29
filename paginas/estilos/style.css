@@ -27,7 +27,15 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'corpo', serif;
+}
+
+h1, h2, h3{
+    font-family: 'titulo', sans-serif;
+}
+
+p{
+    line-height: 1.3em;
 }
 
 /*Cabeçalho*/
@@ -83,7 +91,6 @@ header img{
 
 header h1{
     flex: 0 1 200px;
-
     color: var(--cor1);
     text-shadow: 1px 1px 0px rgb(0, 0, 0);
     font-family: 'titulo';
@@ -107,6 +114,7 @@ section.media-text div#titulo{
 section.media-text div.conteudo{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-flow: row wrap;
     padding-bottom: 100px;
 }
@@ -125,6 +133,27 @@ div.conteudo img{
 div.conteudo article.conteudo{
     flex: 0 1 400px;
     padding: 50px;
+}
+
+div#titulo h1{
+    color: var(--cor1);
+    text-shadow: 1px 1px 0px black;
+    font-size: 2.5em;
+    letter-spacing: 0.15em;
+    padding: 50px 0px;
+}
+
+div.conteudo h2{
+    color: var(--cor2);
+    text-shadow: 1px 1px 0px black;
+    font-size: 2em;
+    letter-spacing: 0.15em;
+    padding-bottom: 20px;
+}
+
+div.conteudo p{
+    font-size: 1.2em;
+    text-align: center;
 }
 
 /*Corpo, section 2*/
@@ -165,17 +194,32 @@ section.text-center div.end{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    justify-content: center;
     padding-bottom: 100px;
 }
 
 div.end article.end{
-    flex: 1 1 300px;
+    flex: 1 0 300px;
+    height: 180px;
     text-align: center;
+    align-items: center;
     border: 2px solid #020e74;
+    background-color: rgba(128, 128, 128, 0.258);
+    box-shadow: inset 0px 0px 10px black;
+}
+
+div.end h3{
+    color: var(--cor0);
+    text-shadow: 1px 1px 0px black;
+    font-size: 1.5em;
+    letter-spacing: 0.15em;
+    padding-top: 20px;
 }
 
 div.end p{
-    padding: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 20px;
 }
 
 /*Rodapé*/
