@@ -210,7 +210,7 @@ div.end article.end{
 }
 
 div.end h3{
-    color: var(--cor0);
+    color: var(--cor2);
     text-shadow: 1px 1px 0px black;
     font-size: 1.5em;
     letter-spacing: 0.15em;
