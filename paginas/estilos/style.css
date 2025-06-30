@@ -43,7 +43,6 @@ p{
 header{
     display: flex;
     flex-flow: column nowrap;
-    
     background-image: linear-gradient(to top, var(--cor0), var(--cor0), #01e0d1);
     box-shadow: 0px 0px 10px black;
 }
@@ -133,7 +132,12 @@ div.conteudo img{
 
 div.conteudo article.conteudo{
     flex: 0 1 400px;
-    padding: 50px;
+    padding: 30px;
+    margin: 20px;
+    background-color: rgba(128, 128, 128, 0.225);
+    box-shadow: 0px 0px 10px black;
+    border: 1px dashed black;
+    border-radius: 10px 10px 10px 0px;
 }
 
 div#titulo h1{
@@ -141,7 +145,9 @@ div#titulo h1{
     text-shadow: 1px 1px 0px black;
     font-size: 2.5em;
     letter-spacing: 0.15em;
-    padding: 50px 0px;
+    padding: 30px 0px;
+    margin: 20px 0px;
+    background-image: linear-gradient(to left, var(--cor0), #0117e056);
 }
 
 div.conteudo h2{
