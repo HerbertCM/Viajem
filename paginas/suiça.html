@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suiça</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+</head>
+<body oresise="itens">
+    <header>
+        <div class="menu">
+            <span class="material-icons" onclick="clicou()" id="men">menu</span>
+            <nav id="itens">
+                <a href="../index.html" rel="prev">Home</a>
+                <a href="eua.html" rel="next">Estados Unidos</a>
+                <a href="canada.html" rel="next">Canada</a>
+                <a href="japao.html" rel="next">Japão</a>
+                <a href="#" style="background-color: rgba(0, 0, 0, 0.641);">Suiça</a>
+            </nav>
+        </div>
+        <div class="media-text">
+            <img src="../imagens/principal/marca-sem-fundo-200.png" alt="">
+            <h1>"Seu guia para destinos incríveis"</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="media-text">
+            <div id="titulo">
+                <h1>Suiça</h1>
+            </div>
+
+            <div class="conteudo">
+                <img src="imagens/suiça/cidade-200.jpg" alt="">
+                <article class="conteudo">
+                    <h2>Beleza Alpina e Qualidade de Vida</h2>
+                    <p>A Suíça é um pequeno país localizado no coração da Europa, conhecido por sua impressionante paisagem alpina, estabilidade política e alto padrão de vida. Com quatro línguas oficiais (alemão, francês, italiano e romanche), o país reflete uma rica diversidade cultural. Famosa por seus relógios de precisão, chocolates e bancos, a Suíça também se destaca por sua neutralidade histórica e qualidade nos serviços públicos. Suas cidades limpas e organizadas, como Zurique, Genebra e Berna, convivem em harmonia com vilarejos encantadores e lagos cristalinos, tornando o país um destino sofisticado e acolhedor.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="media-text">
+
+            <div class="conteudo" id="reverse">
+                <img src="imagens/suiça/trem-200.jpg" alt="" id="reverse">
+                <article class="conteudo" id="reverse">
+                    <h2>Entre Alpes, Lagos e Cidades Charmosas</h2>
+                    <p>A Suíça é um destino turístico de destaque na Europa, conhecido por suas paisagens deslumbrantes e infraestrutura impecável. Os Alpes suíços atraem visitantes para esportes de inverno como esqui e snowboard, enquanto no verão, trilhas e passeios de trem panorâmico revelam lagos e montanhas de tirar o fôlego. Cidades como Lucerna, Zurique e Genebra oferecem combinações de cultura, história e modernidade. A Suíça também encanta com vilarejos pitorescos, como Zermatt e Interlaken, além da excelência em hotelaria, transporte e gastronomia, tornando cada visita confortável e inesquecível.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="text-center">
+            <img src="imagens/eua/liberdade-300.jpg" alt="" id="long">
+            <div class="end">
+                <article class="end">
+                    <h3>Matterhorn</h3>
+                    <p>Montanha icônica dos Alpes, popular entre montanhistas e fotógrafos.</p>
+                </article>
+                <article class="end">
+                    <h3>Lago de Genebra</h3>
+                    <p>Lago deslumbrante cercado por vinhedos e cidades históricas como Montreux.</p>
+                </article>
+                <article class="end">
+                    <h3>Cidade de Lucerna</h3>
+                    <p>Charmosa cidade com pontes medievais e vista para os Alpes.</p>
+                </article>
+                <article class="end">
+                    <h3>Jungfraujoch</h3>
+                    <p>Conhecido como “Topo da Europa”, oferece paisagens glaciais espetaculares.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p><i>Site criador por HerbertCM</i></p>
+    </footer>
+
+    <script>
+        function clicou(){
+            if (itens.style.display=='flex'){
+                itens.style.display='none'
+            } else {
+                itens.style.display='flex'
+            }
+        }
+    </script>
+</body>
+</html>

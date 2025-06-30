@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japão</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+</head>
+<body oresise="itens">
+    <header>
+        <div class="menu">
+            <span class="material-icons" onclick="clicou()" id="men">menu</span>
+            <nav id="itens">
+                <a href="../index.html" rel="prev">Home</a>
+                <a href="eua.html" rel="next">Estados Unidos</a>
+                <a href="canada.html" rel="next">Canada</a>
+                <a href="#" style="background-color: rgba(0, 0, 0, 0.641);">Japão</a>
+                <a href="suiça.html" rel="next">Suiça</a>
+            </nav>
+        </div>
+        <div class="media-text">
+            <img src="../imagens/principal/marca-sem-fundo-200.png" alt="">
+            <h1>"Seu guia para destinos incríveis"</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="media-text">
+            <div id="titulo">
+                <h1>Japão</h1>
+            </div>
+
+            <div class="conteudo">
+                <img src="imagens/japao/templo-200.jpg" alt="">
+                <article class="conteudo">
+                    <h2>Tradição e Tecnologia em Harmonia</h2>
+                    <p>O Japão é um país insular localizado no leste da Ásia, conhecido por sua impressionante fusão entre tradição milenar e inovação tecnológica. Com uma rica herança cultural, templos históricos, cerimônias do chá e artes como o origami e o kabuki convivem com cidades ultramodernas como Tóquio e Osaka. O país é composto por quatro ilhas principais e centenas de menores, oferecendo paisagens que vão de vulcões e montanhas a praias serenas. A sociedade japonesa valoriza a disciplina, o respeito e a estética, refletidos tanto no cotidiano quanto na arte e arquitetura. Reconhecido por sua economia forte, segurança e infraestrutura de ponta, o Japão é também um destino turístico fascinante e acolhedor.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="media-text">
+
+            <div class="conteudo" id="reverse">
+                <img src="imagens/japao/cidade-200.jpg" alt="" id="reverse">
+                <article class="conteudo" id="reverse">
+                    <h2>Entre Templos Antigos e Cidades Futuristas</h2>
+                    <p>O Japão é um dos destinos turísticos mais fascinantes do mundo, atraindo visitantes com sua mistura única de tradição e modernidade. Turistas podem explorar templos históricos em Kyoto, castelos antigos, santuários xintoístas e jardins zen, ao mesmo tempo em que se encantam com a tecnologia e o ritmo vibrante de cidades como Tóquio e Osaka. O país oferece experiências culturais autênticas, como cerimônias do chá, hospedagens em ryokans (hotéis tradicionais) e festivais sazonais. A beleza natural, incluindo o Monte Fuji, cerejeiras em flor e fontes termais (onsens), completa a experiência. Com transporte eficiente e segurança exemplar, o Japão proporciona uma viagem rica, segura e inesquecível.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="text-center">
+            <img src="imagens/eua/liberdade-300.jpg" alt="" id="long">
+            <div class="end">
+                <article class="end">
+                    <h3>Monte Fuji</h3>
+                    <p>Símbolo do Japão, é um vulcão sagrado com paisagens deslumbrantes, muito procurado para trilhas e fotos.</p>
+                </article>
+                <article class="end">
+                    <h3>Templo Kinkaku-ji</h3>
+                    <p>Conhecido como Pavilhão Dourado, encanta com sua estrutura coberta de ouro refletida em um lago tranquilo.</p>
+                </article>
+                <article class="end">
+                    <h3>Shibuya Crossing</h3>
+                    <p>Um dos cruzamentos mais movimentados do mundo, representa o ritmo moderno e vibrante da capital japonesa.</p>
+                </article>
+                <article class="end">
+                    <h3>Castelo de Himeji</h3>
+                    <p>Considerado o castelo mais belo e bem preservado do Japão, é Patrimônio Mundial da UNESCO.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p><i>Site criador por HerbertCM</i></p>
+    </footer>
+
+    <script>
+        function clicou(){
+            if (itens.style.display=='flex'){
+                itens.style.display='none'
+            } else {
+                itens.style.display='flex'
+            }
+        }
+    </script>
+</body>
+</html>

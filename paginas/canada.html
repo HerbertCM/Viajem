@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canada</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+</head>
+<body oresise="itens">
+    <header>
+        <div class="menu">
+            <span class="material-icons" onclick="clicou()" id="men">menu</span>
+            <nav id="itens">
+                <a href="../index.html" rel="prev">Home</a>
+                <a href="eua.html" rel="next">Estados Unidos</a>
+                <a href="#" style="background-color: rgba(0, 0, 0, 0.641);">Canada</a>
+                <a href="japao.html" rel="next">Japão</a>
+                <a href="suiça.html" rel="next">Suiça</a>
+            </nav>
+        </div>
+        <div class="media-text">
+            <img src="../imagens/principal/marca-sem-fundo-200.png" alt="">
+            <h1>"Seu guia para destinos incríveis"</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="media-text">
+            <div id="titulo">
+                <h1>canada</h1>
+            </div>
+
+            <div class="conteudo">
+                <img src="imagens/canada/lago-400.jpg" alt="">
+                <article class="conteudo">
+                    <h2>Um País de Diversidade e Natureza</h2>
+                    <p>O Canadá é o segundo maior país do mundo em extensão territorial, localizado na América do Norte. Conhecido por sua diversidade cultural, paisagens naturais impressionantes e qualidade de vida elevada, o país é uma monarquia constitucional com um sistema parlamentarista. Possui duas línguas oficiais, inglês e francês, refletindo sua herança britânica e francesa. O Canadá é composto por dez províncias e três territórios, com destaque para cidades como Toronto, Vancouver, Montreal e a capital, Ottawa. Além de sua forte economia baseada em recursos naturais, tecnologia e serviços, o país é reconhecido por sua política de imigração acolhedora e por ser um dos líderes globais em direitos humanos e sustentabilidade ambiental.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="media-text">
+
+            <div class="conteudo" id="reverse">
+                <img src="imagens/canada/neve-200.jpg" alt="" id="reverse">
+                <article class="conteudo" id="reverse">
+                    <h2>Natureza, Cultura e Aventura</h2>
+                    <p>O Canadá é um destino turístico de destaque mundial, oferecendo uma combinação única de belezas naturais, cidades vibrantes e rica herança cultural. Os visitantes podem explorar paisagens deslumbrantes como as Montanhas Rochosas, as Cataratas do Niágara, os lagos cristalinos de Banff e Jasper, além da aurora boreal nos territórios do norte. Nas cidades, atrações como os museus de Ottawa, a vida urbana de Toronto, a arquitetura histórica de Quebec e a multiculturalidade de Vancouver encantam os turistas. O país também é ideal para atividades ao ar livre, como esqui, trilhas, canoagem e observação de vida selvagem. A infraestrutura turística de qualidade e a hospitalidade canadense tornam a experiência ainda mais acolhedora e inesquecível.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="text-center">
+            <img src="imagens/canada/rio-300.jpg" alt="" id="long">
+            <div class="end">
+                <article class="end">
+                    <h3>Cataratas do Niágara</h3>
+                    <p>Famosas quedas d’água na fronteira com os EUA.</p>
+                </article>
+                <article class="end">
+                    <h3>Parque Nacional de Banff</h3>
+                    <p>Montanhas e lagos incríveis nas Rochosas.</p>
+                </article>
+                <article class="end">
+                    <h3>Cidade de Quebec</h3>
+                    <p>Centro histórico com arquitetura francesa.</p>
+                </article>
+                <article class="end">
+                    <h3>CN Tower</h3>
+                    <p>Torre icônica com vista panorâmica da cidade.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p><i>Site criador por HerbertCM</i></p>
+    </footer>
+
+    <script>
+        function clicou(){
+            if (itens.style.display=='flex'){
+                itens.style.display='none'
+            } else {
+                itens.style.display='flex'
+            }
+        }
+    </script>
+</body>
+</html>
